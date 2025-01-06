@@ -1,0 +1,34 @@
+.Nav-bar li {
+  list-style: none;
+  margin: 10px;
+  box-shadow: inset;
+}
+.Nav-bar {
+  display: flex;
+  padding: 1%;
+  background-color: blueviolet;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax {
+  height: 400px;
+  background-image: url('images/DALL·E\ 2025-01-05\ 21.31.08\ -\ A\ stunning\,\ high-quality\ parallax-ready\ background\ image\ for\ a\ portfolio\ website.\ The\ image\ features\ a\ serene\ landscape\ with\ rolling\ hills\ and\ a\ clear.webp'); /* Replace with your image */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  color: black;
+  
+}
+
+.Heading {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  
+}
