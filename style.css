@@ -9,6 +9,9 @@
     background-color: #052f5f;
     justify-content: center;
     align-items: center;
+   
+    
+
   }
   
   .parallax {
@@ -30,7 +33,7 @@
     
   }
   
-  .Heading {
+  /* .Heading {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -38,11 +41,8 @@
     background-color: #005377;
     height: 256px;
     
-  }
+  } */
 
-  .Heading h1 {
-    color: white;
-  }
 
   .Heading p {
     color: #D5C67A;
@@ -53,3 +53,23 @@
     height: 150px; 
     width: 150px; 
  }
+
+ h1 {
+  color: white;
+ }
+
+ body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #005377;
+    height: 256px;
+ }
+
+ .about p{
+    font-size: 25px;
+    color: #f1a218;
+
+ }
+
