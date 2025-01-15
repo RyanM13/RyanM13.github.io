@@ -1,75 +1,30 @@
-.Nav-bar li {
-    list-style: none;
-    margin: 25px;
-    box-shadow: inset;
-  }
-  .Nav-bar {
-    display: flex;
-    padding: 1%;
-    background-color: #052f5f;
-    justify-content: center;
-    align-items: center;
-   
-    
+body {
+  background-color: black;
+  color: #00FF00;
+  font-family: 'VT323', monospace;
+  margin: 200px;
+}
 
-  }
-  
-  .parallax {
-    height: 400px;
-    background-image: url('images/DALL·E\ 2025-01-05\ 21.31.08\ -\ A\ stunning\,\ high-quality\ parallax-ready\ background\ image\ for\ a\ portfolio\ website.\ The\ image\ features\ a\ serene\ landscape\ with\ rolling\ hills\ and\ a\ clear.webp'); /* Replace with your image */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  button {
-    color: #f1a218;
-    background-color: #06A77D;
-    border-radius: 10px;
-    font-weight: 900;
-    width: 90px;
-    height: 30px;
-    
-  }
-  
-  /* .Heading {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
-    background-color: #005377;
-    height: 256px;
-    
-  } */
+.heading h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+}
 
+.nav li {
+  list-style: none;
+  margin: 70px;
+}
 
-  .Heading p {
-    color: #D5C67A;
-  }
+a {
+  color: #00FF00;
+  text-decoration: none;
+}
 
- .Heading img {
-    border-radius: 50%;
-    height: 150px; 
-    width: 150px; 
- }
-
- h1 {
-  color: white;
- }
-
- body {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    
-    background-color: #005377;
-    height: 256px;
- }
-
- .about p{
-    font-size: 25px;
-    color: #f1a218;
-
- }
-
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-left: -30px;
+} 
