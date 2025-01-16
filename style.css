@@ -2,16 +2,18 @@ body {
   background-color: hsl(0,0%, 5%);
   color: #00FF00;
   font-family: 'VT323', monospace;
-  margin: 145px;
+  margin: 120px;
   border-color: grey;
   border-width: 20px;
-}
-
-.heading h1 {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+h1 {
   font-size: 75px;
 }
+
 
 .nav li {
   list-style: none;
