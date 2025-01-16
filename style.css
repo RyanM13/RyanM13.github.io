@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 }
 
 h1 {
@@ -32,6 +33,35 @@ a {
   font-size: 50px;
   margin-left: -30px;
 } 
+
+#about {
+  font-size: 30px;
+}
+#image {
+  width: 175px;
+  height: auto;
+  filter: grayscale(100%) contrast(200%) brightness(80%);
+  image-rendering: pixelated;
+  border: 5px solid #00FF00;
+}
+.about {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about img {
+  width: 175px;
+  height: auto;
+  filter: grayscale(100%) contrast(200%) brightness(80%);
+  image-rendering: pixelated;
+  border: 5px solid #00FF00;
+}
+
+.about p {
+  font-size: 30px;
+}
 
  
 @media only screen and (max-width: 600px) {
