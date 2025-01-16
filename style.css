@@ -1,8 +1,10 @@
 body {
-  background-color: black;
+  background-color: hsl(0,0%, 5%);
   color: #00FF00;
   font-family: 'VT323', monospace;
-  margin: 200px;
+  margin: 145px;
+  border-color: grey;
+  border-width: 20px;
 }
 
 .heading h1 {
@@ -13,7 +15,7 @@ body {
 
 .nav li {
   list-style: none;
-  margin: 70px;
+  margin: 80px;
 }
 
 a {
@@ -29,6 +31,7 @@ a {
   margin-left: -30px;
 } 
 
+ 
 @media only screen and (max-width: 600px) {
   body {
     font-size: 16px; 
