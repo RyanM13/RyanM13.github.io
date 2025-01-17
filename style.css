@@ -1,24 +1,27 @@
+/* General Styles */
 body {
   background-color: hsl(0,0%, 5%);
   color: #00FF00;
   font-family: 'VT323', monospace;
-  margin: 120px;
+  margin: 20px; /* Reduced margin to ensure better scaling */
   border-color: grey;
   border-width: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 100%;
+  height: 100vh; /* Ensure the body takes full height */
+  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 10rem; /* Use rem for font size */
+  text-align: center;
 }
-
 
 .nav li {
   list-style: none;
-  margin: 80px;
+  margin: 5vw; /* Use viewport width for spacing */
 }
 
 a {
@@ -28,31 +31,35 @@ a {
 
 .nav {
   display: flex;
-  text-align: center;
   justify-content: center;
-  font-size: 50px;
-  margin-left: -30px;
+  font-size: 4rem; /* Adjusted font size */
+  margin-left: -2rem;
 } 
 
 #about {
-  font-size: 30px;
+  font-size: 2rem; /* Font size adjusted for readability */
 }
+
 #image {
-  width: 175px;
+  width: 20vw; /* Use viewport width for responsive images */
   height: auto;
   filter: grayscale(100%) contrast(200%) brightness(80%);
   image-rendering: pixelated;
   border: 5px solid #00FF00;
+  max-width: 175px; /* Ensures image does not get too large */
 }
+
 .about {
   display: flex;
   flex-direction: column; /* Stack children vertically */
   justify-content: center;
   align-items: center;
   text-align: center;
+  max-width: 90%; /* Allow content to adjust to smaller screens */
 }
+
 .about img {
-  width: 175px;
+  width: 20vw;
   height: auto;
   filter: grayscale(100%) contrast(200%) brightness(80%);
   image-rendering: pixelated;
@@ -60,21 +67,30 @@ a {
 }
 
 .about p {
-  font-size: 30px;
+  font-size: 2rem; /* Smaller font size for better readability */
+  max-width: 700px; /* Ensure paragraphs don't stretch too wide on large screens */
+  text-align: center;
 }
 
- 
-@media only screen and (max-width: 600px) {
+/* Responsive adjustments */
+@media (max-width: 600px) {
   body {
-    font-size: 16px; 
+    margin: 10px; /* Reduce margin on small screens */
   }
 
-  .heading h1 {
-    font-size: 50px;  
-    margin: 20px;  
+  h1 {
+    font-size: 5rem; /* Smaller font size on mobile */
   }
 
   .nav {
-    font-size: 30px;  
+    font-size: 2rem; /* Adjust nav font size */
+  }
+
+  .about p {
+    font-size: 1.5rem; /* Adjust paragraph size for smaller screens */
+  }
+
+  #image {
+    width: 40vw; /* Larger image on mobile */
   }
 }
