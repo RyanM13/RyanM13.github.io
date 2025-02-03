@@ -83,6 +83,7 @@ li {
   top: 75px;       
   left: 120px;      
   font-size: 20px;
+  max-width: 20px;
 }
 
 .terminal {
@@ -94,15 +95,17 @@ li {
   box-shadow: 0 0 10px #00FF00;
   height: 500px;
   margin: 20px auto;
+  text-wrap: wrap;
+  max-width: 500px;
 }
 
 .terminal p {
-  margin: 0;
+  margin: 15px;
   text-shadow: 0 0 5px #00FF00;
 }
 
 .terminal a{
-  margin: 25px;
+  margin: 0px;
 }
 
 .dir {
