@@ -12,6 +12,10 @@ body {
 
 }
 
+.heading {
+  margin-left: 15px;
+}
+
 h1 {
   font-size: 10vh;
 }
@@ -82,7 +86,7 @@ li {
   position: fixed; 
   top: 75px;       
   left: 120px;      
-  font-size: 20px;
+  font-size: 50px;
   max-width: 20px;
 }
 
@@ -93,7 +97,7 @@ li {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px #00FF00;
-  height: 500px;
+  height: 20em;
   margin: 20px auto;
   text-wrap: wrap;
   max-width: 500px;
@@ -143,8 +147,19 @@ li {
 
   }
 
+  .heading {
+    margin-left: 75px;
+    margin-top: 80px;
+    
+  }
+
+  #index h1 {
+    text-indent: 35px;
+  }
+
   h1 {
     font-size: 5rem; /* Smaller font size on mobile */
+
   }
 
   .nav {
@@ -157,5 +172,36 @@ li {
 
   #image {
     width: 40vw; /* Larger image on mobile */
+    margin-top: 55px;
+    
+  }
+ 
+  #contact {
+    display: flex;
+    margin-right: 75px;
+    text-align: center;
+    margin-top: 95px;
+  }
+
+  .terminal {
+    min-width: min-content;
+    max-width: 200em;
+    max-height: 200em;
+    margin-top: 7em;
+    font-size: 20px;
+  }
+
+.terminal p {
+  margin: 15px;
+  text-shadow: 0 0 5px #00FF00;
+}
+
+  .sidebar {
+    display: none;
+  }
+
+
+  .back a {
+    left: 2rem;
   }
 }
