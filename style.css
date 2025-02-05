@@ -149,7 +149,7 @@ li {
     margin: 2px; /* Reduce margin on small screens */
     min-height: fit-content;
     min-width: fit-content;
-    overflow: visible;
+    overflow: scroll;
 
   }
 
