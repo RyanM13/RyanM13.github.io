@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   max-width: 100%;
 
 }
@@ -23,7 +24,7 @@ h1 {
 
 .nav li {
   list-style: none;
-  margin: 80px;
+  margin: 70px;
 }
 
 a {
@@ -85,7 +86,7 @@ li {
 .back a{
   position: fixed; 
   top: 75px;       
-  left: 120px;      
+  left: 140px;      
   font-size: 50px;
   max-width: 20px;
 }
@@ -97,19 +98,15 @@ li {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px #00FF00;
-  height: 20em;
+  height: 30em;
   margin: 20px auto;
   text-wrap: wrap;
-  max-width: 500px;
+  width: 800px;
+  margin: 70px;
 }
 
 .terminal p {
-  margin: 15px;
-  text-shadow: 0 0 5px #00FF00;
-}
-
-.terminal a{
-  margin: 0px;
+  font-size: 35px;
 }
 
 .dir {
@@ -130,6 +127,12 @@ li {
   text-shadow: 0 0 5px #00FF00;
   border: 2px solid #00FF00;
   border-radius: 5px;
+  width: 350px;
+  height: 350px;
+}
+.sidebar p {
+  text-align: center;
+  font-size: 25px;
 }
 
 .contact {
@@ -186,14 +189,15 @@ li {
   .terminal {
     min-width: min-content;
     max-width: 200em;
-    max-height: 200em;
-    margin-top: 7em;
-    font-size: 20px;
+    max-height: 500px;
+    margin-top: 135px;
+    font-size: 25px;
   }
 
 .terminal p {
   margin: 15px;
   text-shadow: 0 0 5px #00FF00;
+  font-size: 25px;
 }
 
   .sidebar {
@@ -203,5 +207,11 @@ li {
 
   .back a {
     left: 2rem;
+    font-size: 40px;
+  }
+
+  #aboutback a{
+    font-size: 35px;
+
   }
 }
