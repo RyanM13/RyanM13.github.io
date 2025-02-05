@@ -101,8 +101,8 @@ li {
   height: 30em;
   margin: 20px auto;
   text-wrap: wrap;
-  width: 800px;
-  margin: 70px;
+  width: 50vw;
+  margin: 5vw;
 }
 
 .terminal p {
@@ -127,8 +127,8 @@ li {
   text-shadow: 0 0 5px #00FF00;
   border: 2px solid #00FF00;
   border-radius: 5px;
-  width: 350px;
-  height: 350px;
+  width: 20vw;
+  height: 20vw;
 }
 .sidebar p {
   text-align: center;
@@ -146,7 +146,9 @@ li {
 /* Responsive adjustments */
 @media (max-width: 600px) {
   body {
-    margin: 10px; /* Reduce margin on small screens */
+    margin: 2px; /* Reduce margin on small screens */
+    width: fit-content;
+    height: fit-content;
 
   }
 
@@ -190,8 +192,9 @@ li {
     min-width: min-content;
     max-width: 200em;
     max-height: 500px;
-    margin-top: 135px;
+    margin-top: 115px;
     font-size: 25px;
+    margin-left: 5vh;
   }
 
 .terminal p {
@@ -208,6 +211,7 @@ li {
   .back a {
     left: 2rem;
     font-size: 40px;
+    margin-top: 0vh;
   }
 
   #aboutback a{

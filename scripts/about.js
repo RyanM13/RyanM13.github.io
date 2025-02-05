@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let element = document.getElementById("words");
   let txt = element.innerHTML; // Get the original text
   let i = 0;
-  let speed = 50;
+  let speed = 40;
 
   function typeWriter() {
     if (i < txt.length) {
