@@ -147,8 +147,7 @@ li {
 @media (max-width: 600px) {
   body {
     margin: 2px; /* Reduce margin on small screens */
-    min-height: fit-content;
-    min-width: fit-content;
+
     overflow: scroll;
 
   }
