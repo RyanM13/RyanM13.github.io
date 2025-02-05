@@ -144,12 +144,12 @@ li {
 }
 
 /* Responsive adjustments */
-@media (max-width: 800px) {
+@media (max-width: 650px) {
   body {
     margin: 2px; /* Reduce margin on small screens */
 
-    overflow: scroll;
-
+    height: 100%;
+    overflow-y: scroll;
   }
 
   .heading {
