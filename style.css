@@ -144,7 +144,7 @@ li {
 }
 
 /* Responsive adjustments */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   body {
     margin: 2px; /* Reduce margin on small screens */
 
