@@ -107,6 +107,7 @@ li {
 
 .terminal p {
   font-size: 35px;
+  display: flex;
 }
 
 .dir {
@@ -115,11 +116,12 @@ li {
   cursor: pointer;
   text-decoration: underline;
 }
-
+.bodyP {
+  display: flex;
+  justify-content: center;
+  margin-left: 8%;
+}
 .sidebar {
-  position: fixed;
-  top: 10px;
-  right: 20px;
   background-color: hsl(0, 0%, 10%);
   padding: 10px;
   color: #00FF00;
@@ -128,11 +130,12 @@ li {
   border: 2px solid #00FF00;
   border-radius: 5px;
   width: 20vw;
-  height: 20vw;
+  height: 50vh;
 }
 .sidebar p {
-  text-align: center;
-  font-size: 25px;
+  justify-content: center;
+  font-size: 30px;
+  display: flex;
 }
 
 .contact {
