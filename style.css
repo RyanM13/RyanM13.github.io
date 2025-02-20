@@ -1,16 +1,15 @@
 body {
-  background-color: hsl(0,0%, 5%);
-  color: #00FF00;
-  font-family: 'VT323', monospace;
-  margin: 25px;
+  background-color: hsl(0, 0%, 5%);
+  color: #00ff00;
+  font-family: "VT323", monospace;
+  margin: 2px;
   border-color: grey;
   border-width: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow: scroll;
   max-width: 100%;
-
 }
 
 .heading {
@@ -21,14 +20,13 @@ h1 {
   font-size: 10vh;
 }
 
-
 .nav li {
   list-style: none;
   margin: 70px;
 }
 
 a {
-  color: #00FF00;
+  color: #00ff00;
   text-decoration: none;
   width: 100%;
 }
@@ -39,7 +37,7 @@ a {
   justify-content: center;
   font-size: 9vh;
   margin-left: -30px;
-} 
+}
 
 li {
   list-style: none;
@@ -48,7 +46,7 @@ li {
 .nav li::before {
   content: ">";
   margin-right: 25px;
-  color: #00FF00;
+  color: #00ff00;
 }
 
 #about {
@@ -60,12 +58,12 @@ li {
   height: auto;
   filter: grayscale(100%) contrast(200%) brightness(80%);
   image-rendering: pixelated;
-  border: 5px solid #00FF00;
+  border: 5px solid #00ff00;
 }
 
 .about {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -76,28 +74,28 @@ li {
   height: auto;
   filter: grayscale(100%) contrast(200%) brightness(80%);
   image-rendering: pixelated;
-  border: 5px solid #00FF00;
+  border: 5px solid #00ff00;
 }
 
 .about p {
   font-size: 30px;
 }
 
-.back a{
-  position: fixed; 
-  top: 75px;       
-  left: 140px;      
+.back a {
+  position: fixed;
+  top: 75px;
+  left: 140px;
   font-size: 50px;
   max-width: 20px;
 }
 
 .terminal {
   background-color: hsl(0, 0%, 10%);
-  color: #00FF00;
-  font-family: 'VT323', monospace;
+  color: #00ff00;
+  font-family: "VT323", monospace;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px #00FF00;
+  box-shadow: 0 0 10px #00ff00;
   height: 30em;
   margin: 20px auto;
   text-wrap: wrap;
@@ -111,31 +109,18 @@ li {
 }
 
 .dir {
-  color: #00FF00;
+  color: #00ff00;
   font-weight: bold;
   cursor: pointer;
   text-decoration: underline;
 }
+
 .bodyP {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-left: 8%;
-}
-.sidebar {
-  background-color: hsl(0, 0%, 10%);
-  padding: 10px;
-  color: #00FF00;
-  font-family: 'VT323', monospace;
-  text-shadow: 0 0 5px #00FF00;
-  border: 2px solid #00FF00;
-  border-radius: 5px;
-  width: 20vw;
-  height: 50vh;
-}
-.sidebar p {
-  justify-content: center;
-  font-size: 30px;
-  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .contact {
@@ -158,7 +143,6 @@ li {
   .heading {
     margin-left: 75px;
     margin-top: 80px;
-    
   }
 
   #index h1 {
@@ -167,7 +151,6 @@ li {
 
   h1 {
     font-size: 5rem; /* Smaller font size on mobile */
-
   }
 
   .nav {
@@ -181,9 +164,8 @@ li {
   #image {
     width: 40vw; /* Larger image on mobile */
     margin-top: 55px;
-    
   }
- 
+
   #contact {
     display: flex;
     margin-right: 75px;
@@ -199,16 +181,11 @@ li {
     font-size: 25px;
   }
 
-.terminal p {
-  margin: 15px;
-  text-shadow: 0 0 5px #00FF00;
-  font-size: 25px;
-}
-
-  .sidebar {
-    display: none;
+  .terminal p {
+    margin: 15px;
+    text-shadow: 0 0 5px #00ff00;
+    font-size: 25px;
   }
-
 
   .back a {
     left: 2rem;
@@ -217,8 +194,7 @@ li {
     position: fixed;
   }
 
-  #aboutback a{
+  #aboutback a {
     font-size: 35px;
-
   }
 }
