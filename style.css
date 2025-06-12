@@ -107,7 +107,6 @@ li {
 .terminal p {
   font-size: 5vh;
   display: flex;
-  overflow: hidden;
 }
 
 .dir {
